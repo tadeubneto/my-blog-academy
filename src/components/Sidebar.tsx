@@ -27,6 +27,21 @@ export default function Sidebar() {
             <User size={20} />
             <span>Sobre</span>
           </Link>
+          <Link
+            href="/frase"
+            className="flex items-center space-x-3 text-gray-700 hover:text-blue-600 transition-colors"
+          >
+            <User size={20} />
+            <span>Frase</span>
+          </Link>
+          <Link
+            href="/form"
+            className="flex items-center space-x-3 text-gray-700 hover:text-blue-600 transition-colors"
+          >
+            <User size={20} />
+            <span>Contato</span>
+          </Link>
+         
           
         </nav>
       </div>
